@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input.class-input {
+  width: 300px;
+  height: 20px;
+  margin: 20px;
+  border-radius: 0px 20px 0px 20px;
+  font-size: 15px;
+  padding: 10px 20px;
+  color: black;
+  border-color: #5f4b8b;
+  outline-color: rgb(255, 127, 127);
+  
+  
+}
+
+h2 {
+  color: #000000;
+}
+
+/* button:hover {
+  border: none;
+  size: 20px;
+
+  
+} */
+
+button:not([type="button"]):not([type="submit"]):not([type="reset"]):hover, input:not([type="button"]):not([type="submit"]):not([type="reset"]):focus, textarea:hover, textarea:focus, select:hover, select:focus {
+  border-color: #000000;
+  box-shadow: none;
+  color: #000000;
+  
+
+  box-shadow: 0px 2px 1px 1px black;
+
+
+}
+
+
+/* input.class-input:not([type="button"]):not([type="submit"]):not([type="reset"]):hover, input:not([type="button"]):not([type="submit"]):not([type="reset"]):focus, textarea:hover, textarea:focus, select:hover, select:focus {
+  border-color: #81256f;
+  box-shadow: none;
+} */
+
+
+img.result-image {
+  width: fit-content;
+  margin: 20px;
+  max-height: fit-content;
+  border-radius: 0px 100px 0px 100px;
+}
+
+
